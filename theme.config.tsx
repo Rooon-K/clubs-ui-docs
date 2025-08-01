@@ -1,18 +1,10 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
-
-const config: DocsThemeConfig = {
-  logo: <span>Clubs UI</span>,
+export default {
+  logo: 'Clubs UI',
   project: {
-    link: 'https://github.com/Rooon-K/clubs-ui-docs',
-  },
-  chat: {
-    link: 'https://discord.com',
+    link: 'https://github.com/Rooon-K/clubs-ui',
   },
   docsRepositoryBase: 'https://github.com/Rooon-K/clubs-ui-docs',
   footer: {
     text: 'Clubs UI Docs',
   },
 }
-
-export default config

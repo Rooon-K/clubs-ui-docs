@@ -1,20 +1,36 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "baseUrl": ".",
+    "target": "es2022",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "paths": {
+      "@components/*": ["components/*"],
+      // These work at runtime due to Next.js internal resolution or custom config,
+      // but we include them here so TypeScript doesn't complain.
+      "private-next-root-dir/*": ["./*"],
+      "next-mdx-import-source-file": ["./mdx-components.tsx"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", ".next"]
 }

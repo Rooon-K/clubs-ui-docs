@@ -1,31 +1,25 @@
 {
-  "name": "clubs-ui-docs",
-  "version": "0.0.1",
-  "description": "Clubs UI Docs",
+  "name": "docs",
+  "author": "Shu Ding",
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "build": "VERCEL_FORCE_NO_BUILD_CACHE=1 next build",
+    "dev": "next",
+    "postbuild": "next-sitemap && pagefind --site .next/server/app --output-path public/_pagefind",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rooon-K/clubs-ui-docs.git"
-  },
-  "author": "Rooon-K",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Rooon-K/clubs-ui-docs/issues"
-  },
-  "homepage": "https://github.com/Rooon-K/clubs-ui-docs#readme",
   "dependencies": {
-    "next": "^13.0.6",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
+    "@tailwindcss/postcss": "^4.1.11",
+    "next": "^14.0.0",
+    "next-sitemap": "^4.2.3",
+    "nextra": "4.3.0",
+    "nextra-theme-docs": "4.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.10",
-    "typescript": "^4.9.3"
+    "@types/node": "24.1.0",
+    "pagefind": "^1.3.0"
   }
 }
