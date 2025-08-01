@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://nextra.site/icon.png</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/apple-icon.png</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/blog</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/showcase</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/opengraph-image.png</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/advanced/code-highlighting</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/features/i18n</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/features/image</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/features/latex</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/features/mdx</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/features/ssg</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/features/themes</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/get-started</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/mermaid</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/page</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/themes/blog</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/themes/docs</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/themes/docs/bleed</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/themes/docs/callout</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/themes/docs/configuration</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://nextra.site/docs/themes/docs/tabs</loc><lastmod>2025-08-01T05:52:10.363Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nextra.site/icon.png</loc><lastmod>2025-08-01T06:18:59.385Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nextra.site/apple-icon.png</loc><lastmod>2025-08-01T06:18:59.385Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nextra.site/opengraph-image.png</loc><lastmod>2025-08-01T06:18:59.385Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nextra.site</loc><lastmod>2025-08-01T06:18:59.385Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://nextra.site/docs</loc><lastmod>2025-08-01T06:18:59.385Z</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
 </urlset>
